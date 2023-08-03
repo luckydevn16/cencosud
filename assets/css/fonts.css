@@ -1,0 +1,18 @@
+@font-face { 
+    font-family: 'Neometric'; 
+    src: url('../fonts/Neometric-Light.woff2') format('woff2'); 
+    font-weight: lighter; 
+    font-style: normal; 
+}
+@font-face { 
+    font-family: 'Neometric'; 
+    src: url('../fonts/Neometric-Bold.woff2') format('woff2'); 
+    font-weight: bold; 
+    font-style: normal; 
+}
+@font-face { 
+    font-family: 'SF Pro Display'; 
+    src: url('../fonts/SFProDisplay-Regular.woff2') format('woff2'); 
+    font-weight: normal; 
+    font-style: normal; 
+}

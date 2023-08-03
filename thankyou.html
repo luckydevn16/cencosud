@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>¡Felicidades!</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+</head>
+<body>
+    <div class="main-wrapper" style="overflow-y:hidden">
+        <nav class="navigation mobile">
+            <img src="assets/img/close.png" alt="close" class="menu-close-img">
+            <ul class="navigation-list mobile flex">
+                <li class="navigation-list-item mobile" onclick="scrollToTop(),menuClosing()">
+                    <img src="assets/img/logo.svg" alt="logo" class="logo-img"> 
+                </li>
+                <li class="navigation-list-item mobile" onclick="menuClosing()">
+                    <a href="index.html">A la página de inicio</a> 
+                </li>
+            </ul>
+        </nav>
+        <div class="menu-underlay"></div>
+        <section class="section-hero" style="min-height:95vh;overflow:hidden">
+            <div class="container">
+                <header class="header flex justify-between">
+                    <img src="assets/img/logo.svg" alt="logo" class="logo-img">
+                    <nav class="navigation">
+                        <ul class="navigation-list flex">
+                            <li class="navigation-list-item">
+                                <a href="index.html">A la página de inicio</a> 
+                            </li>
+                        </ul>
+                    </nav>
+                    <img src="assets/img/hamburger.png" alt="menu" class="menu-open-img">
+                </header>
+                <div class="hero-content flex justify-between align-start">
+                    <div class="hero-content-form-wrapper form" style="width:90%;max-width:500px;margin:4rem auto;text-align:center">
+                        <h1 class="main-heading" style="color:#3574FF;margin:0 0 2rem 0">
+                            ¡Gracias por registrarte!
+                        </h1>
+                        <p class="section-text">
+                            Su asistente personal se pondrá en contacto con usted en breve.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/img/circle-gray.svg" alt="circle" class="circle-decor one">
+            <img src="assets/img/circle-gray.svg" alt="circle" class="circle-decor two">
+            <img src="assets/img/circle-gray.svg" alt="circle" class="circle-decor three">
+            <img src="assets/img/circle-gray.svg" alt="circle" class="circle-decor four">
+            <img src="assets/img/circle-gray.svg" alt="circle" class="circle-decor five">
+        </section>
+        <footer class="footer">
+            <div class="container flex justify-between">
+                <div class="footer-links">
+                    <a href="javascript:void(0)" class="alterlink footer-link">Política de privacidad</a>
+                    <a href="javascript:void(0)" class="alterlink footer-link">Términos de Uso</a>
+                </div>
+                <p class="footer-copyright" onclick="scrollToTop()">
+                    Copyright <span id="currentYear">2022</span> © Cencosud
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
